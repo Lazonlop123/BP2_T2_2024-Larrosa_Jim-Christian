@@ -1,0 +1,25 @@
+﻿  Spell.cpp
+  Wizard.cpp
+C:\Users\Jim\Desktop\OOP\OOP\Spell.cpp(9,15): error C2664: 'void Wizard::Attack(Wizard &)': cannot convert argument 1 from 'int' to 'Wizard &'
+  C:\Users\Jim\Desktop\OOP\OOP\Wizard.h(19,10):
+  see declaration of 'Wizard::Attack'
+  C:\Users\Jim\Desktop\OOP\OOP\Spell.cpp(9,15):
+  while trying to match the argument list '(int)'
+  
+C:\Users\Jim\Desktop\OOP\OOP\Spell.cpp(10,15): error C2664: 'void Wizard::CastSpell(Wizard &)': cannot convert argument 1 from 'int' to 'Wizard &'
+  C:\Users\Jim\Desktop\OOP\OOP\Wizard.h(20,10):
+  see declaration of 'Wizard::CastSpell'
+  C:\Users\Jim\Desktop\OOP\OOP\Spell.cpp(10,15):
+  while trying to match the argument list '(int)'
+  
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(7,9): error C2511: 'Wizard::Wizard(std::string,int,int,int,int)': overloaded member function not found in 'Wizard'
+  C:\Users\Jim\Desktop\OOP\OOP\Wizard.h(8,7):
+  see declaration of 'Wizard'
+  
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(8,94): error C2550: 'Wizard::{ctor}': constructor initializer lists are only allowed on constructor definitions
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(10,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(25,21): error C2143: syntax error: missing ',' before '>='
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(25,41): error C2143: syntax error: missing ';' before '{'
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(26,14): error C2059: syntax error: '->'
+C:\Users\Jim\Desktop\OOP\OOP\Wizard.cpp(27,15): error C2275: 'Spell': expected an expression instead of a type
+  Generating Code...
